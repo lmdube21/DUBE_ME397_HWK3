@@ -95,7 +95,7 @@ status = opt.solve(model)
 
 # write model outputs to a JSON file
 model.solutions.store_to(status)
-status.write(filename='solar_storage.json', format='json')
+status.write(filename='DUBE_HWK3_OPT_OUTPUT.json', format='json')
 
 # pyomo solve DUBE_HWK_3_OPT.py --solver=glpk
 # pyomo solve solar_storage_model.py --solver=gurobi
